@@ -5,7 +5,9 @@ import cv2
 import torch
 import numpy as np
 from math import ceil
-from scipy.ndimage import imread
+#from scipy.ndimage import imread
+from matplotlib.pyplot import imread
+
 import models
 import glob
 import os
